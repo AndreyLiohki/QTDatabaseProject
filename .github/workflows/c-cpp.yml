@@ -22,5 +22,5 @@ jobs:
         
     - name: build project
       run: |
-        qmake -o Makefile WindowBase.pro
+        qmake -o Makefile WindowAppForDataBases.pro
         make
