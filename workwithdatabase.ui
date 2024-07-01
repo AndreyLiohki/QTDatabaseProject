@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WorkWithDatabase</class>
+ <widget class="QDialog" name="WorkWithDatabase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>738</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="labelAlignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="horizontalSpacing">
+      <number>2</number>
+     </property>
+     <item row="0" column="1">
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTextEdit" name="textEdit_4"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Information from databases</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QTextEdit" name="textEdit_2"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QTextEdit" name="textEdit_3"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Cost</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Type</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Add Info</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Update Info</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Clear all </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Flower table</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>Composition table</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
