@@ -17,10 +17,18 @@ jobs:
     - name: instal dependencies
       run: | 
         sudo apt-get update
+        sudo apt-get install qtbase5-dev
+        which qmake
         sudo apt-get install cmake
-        cmake version 3.16.3
         
     - name: build project
       run: |
         qmake -o Makefile WindowAppForDataBases.pro
         make
+
+    - name: run tests
+      run: |
+        cd Tests
+        cmake CMakeLists.txt 
+        make
+        ./test
