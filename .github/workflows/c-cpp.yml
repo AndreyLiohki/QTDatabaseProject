@@ -17,6 +17,7 @@ jobs:
     - name: instal dependencies
       run: | 
         sudo apt-get update
+        sudo apt-get install build-essential libssl-dev libgtest-dev
         sudo apt-get install qtbase5-dev
         which qmake
         sudo apt-get install cmake
