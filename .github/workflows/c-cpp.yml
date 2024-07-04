@@ -1,0 +1,26 @@
+
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: instal dependencies
+      run: | 
+        sudo apt-get update
+        sudo apt-get install cmake
+        cmake version 3.16.3
+        
+    - name: build project
+      run: |
+        qmake -o Makefile WindowAppForDataBases.pro
+        make
